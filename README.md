@@ -9,12 +9,18 @@ Este projeto sobe o Evolution API utilizando Docker Compose.
 
 ## Como Iniciar
 
-1. Configure as variáveis de ambiente:
+1. Clone o repositório:
+```bash
+git clone https://github.com/matheuspdias/evolution-api.git
+cd evolution-api
+```
+
+2. Configure as variáveis de ambiente:
 ```bash
 cp .env.example .env
 ```
 
-2. Inicie os containers:
+3. Inicie os containers:
 ```bash
 docker-compose up -d
 ```
